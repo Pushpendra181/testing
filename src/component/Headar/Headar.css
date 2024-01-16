@@ -1,0 +1,36 @@
+.hero-1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 4rem 0 4rem;
+}
+.hero-1 > img {
+  width: 5rem;
+}
+.hero-1 > img:hover {
+  scale: 1.2;
+  transition: all 1s;
+  width: 5rem;
+}
+.headar_main {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  font-size: 2rem;
+}
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  all: unset;
+  background-color: rgba(103, 169, 5, 0.718);
+  width: fit-content;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1rem;
+  height: 2rem;
+}
+.headar_main > button:hover {
+  color: rgba(0, 0, 0, 0.678);
+  background-color: rgba(157, 255, 10, 0.718);
+  scale: 1.1;
+  transition: 1s all;
+}

@@ -1,0 +1,21 @@
+.btn-grup {
+    width: fit-content;
+    border-radius: 1rem;
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    
+}
+.btn-grup button {
+    all: unset;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-left: 0.5rem;
+    background-color: rgb(183, 183, 183);
+}
+.btn-grup button:hover {
+    
+    background-color: rgba(213, 217, 200, 0.655);
+}

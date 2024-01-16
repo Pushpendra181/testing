@@ -1,0 +1,85 @@
+.img-tag > img {
+  width: 18rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+.img-tag > img:hover {
+  scale: 1.1;
+  transition: all 1s;
+}
+.name {
+  display: flex;
+  justify-content: space-between;
+}
+.name > h3 {
+  padding: 1rem 1rem 0 1rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.card-container {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+.specification {
+  line-height: 1rem;
+}
+.specification > p {
+  padding: 1.5rem 0;
+}
+.specification > h3 {
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+.specification > h4 {
+  padding-top: 0.5rem;
+  padding-bottom: 2rem;
+}
+.card {
+  background-color: rgba(183, 183, 183, 0.833);
+  padding-left: 1rem;
+  border-radius: 1rem;
+  width: 26rem;
+}
+.card .card-number {
+  border: 1px black solid;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(245, 255, 255);
+  margin: 1rem 0;
+}
+.img-tag {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.img-tag button {
+  all: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 7rem;
+  margin-left: 1rem;
+  height: 2rem;
+  margin-right: 2rem;
+  border-radius: 0.5rem;
+  background-color: rgb(9, 101, 214);
+}
+.img-tag button:hover {
+  background-color: rgba(15, 113, 232, 0.777);
+}
+.specification {
+  padding-top: 2rem;
+  line-height: 1.2rem;
+}
